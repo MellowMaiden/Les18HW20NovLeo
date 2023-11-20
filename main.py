@@ -6,12 +6,16 @@ def F(x):
 
         return None
         # if x < = 0 it should not print any number
+    
     elif x==1:
     # if x = 1 it should stop
+        
         return 1
 
     else:
+        
         x=x*F(x-1)
         #calculate
+        
         return x
 print(F(1))
